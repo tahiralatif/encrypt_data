@@ -5,12 +5,10 @@ description = "A secure vault app to store, retrieve, and manage encrypted secre
 readme = "README.md"
 requires-python = ">=3.11"
 
-# List of dependencies your project needs to run
 dependencies = [
     "streamlit",
     "cryptography",
-
-    
 ]
 
-# Optional: If you're using a specific tool like Poetry, you can add additional fields for tool configuration
+[tool.poetry]
+package-mode = false
