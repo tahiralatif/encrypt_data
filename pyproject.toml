@@ -1,7 +1,16 @@
 [project]
 name = "secure-data-encryption-assignment"
 version = "0.1.0"
-description = "Add your description here"
+description = "A secure vault app to store, retrieve, and manage encrypted secrets using Python and Streamlit."
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+
+# List of dependencies your project needs to run
+dependencies = [
+    "streamlit",
+    "cryptography",
+    "sqlite3",
+    "hashlib"  # Note: hashlib is part of Python's standard library, so it doesn't need to be added here
+]
+
+# Optional: If you're using a specific tool like Poetry, you can add additional fields for tool configuration
