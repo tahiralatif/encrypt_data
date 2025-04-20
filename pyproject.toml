@@ -10,7 +10,7 @@ dependencies = [
     "streamlit",
     "cryptography",
     "sqlite3",
-    "hashlib"  # Note: hashlib is part of Python's standard library, so it doesn't need to be added here
+    
 ]
 
 # Optional: If you're using a specific tool like Poetry, you can add additional fields for tool configuration
